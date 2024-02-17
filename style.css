@@ -1,0 +1,366 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(25, 24, 24);
+    width: 100%;
+    height: 100%;
+    
+}
+.container{
+    width: 1200px;
+    height: 700px;
+     background-image: url(aaaa.png);
+    background-size: cover; 
+}
+.main-container nav{
+  
+    display: flex;
+    margin-top: -30px;
+}
+.navbar{
+       padding-left: 750px;  
+       margin-top: 50px;
+}
+button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
+select{
+    width: 110px; 
+    padding: 5px 0;
+    font-size: 13px;
+    border: none;
+    background-color: transparent;
+    color: rgb(11, 11, 11);
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+}
+.main1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900px;
+    margin-top: 100px;
+    h1{
+        font-weight: 100px;
+        font-size: 50px;
+    }
+}
+.botton{
+    width: 140px;
+    height: 45px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 5px;
+    color: rgb(251, 251, 251);
+    margin: 10px;
+    font-size: 15px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    padding: 5px 0;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+.adad{
+    width: 1200px;
+    height: 10px;
+    background-color: rgb(40, 40, 40);
+}
+.tv{
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    }
+.font{
+    margin-top: 150px;
+    padding-left: 25px;
+    width: 450px;
+    
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px; 
+    }
+    
+}
+.meadia{
+    position: relative;
+   
+    >img{
+position: relative;
+ width: 780x;
+ height: 390px;
+ padding-left: 150px;
+ z-index: 10;
+
+    }
+    >video{
+        width: 372px;
+        position: absolute;
+        overflow: hidden;
+        right: 11.5%;
+        bottom: 60%;
+        top: 81px;
+        /* left: 50px; */
+        z-index: 1;
+
+    }
+}
+.adad1{
+    width: 1200px;
+    height: 10px;
+    background-color: rgb(40, 40, 40);
+}
+.download{
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    img{
+         width: 550px;
+         position: relative;
+    }
+    h1{
+        font-size: 50px;
+        padding-right: -290px;
+        margin-top: 150px;
+    }
+    p{
+        font-size: 25px;  
+    }
+    .stranger{
+        color: white;
+         
+        display: flex;
+        
+        } 
+        .img0{
+        margin-left: 4%;
+        }
+        .st1{
+            position: absolute; 
+            top: 50%;
+            left: 16%;
+            z-index: 10;
+            top: 313%;
+            left: 180px;
+    
+        }
+        .st2{
+            position: absolute; 
+            top:54%;
+            /* left: 16%; */
+            z-index: 10;
+            top: 316%;
+            left: 180px;
+            color: blue;
+        }
+        .img3{
+            width: 5%;
+           position: absolute; 
+           top: 311%;
+           left: 370px;
+           z-index: 10;
+     }
+     .img2{
+        position: absolute; 
+        /* top: 50%; */
+        left: 10.5%;
+        z-index: 10;
+        width:50px;
+        padding-right: -90px;
+        left: 8px;
+        height: 68px;
+        top: 310%;
+        left: 110px;
+        
+    }
+    .border{
+        border-radius: 10px;
+        border: 2px solid rgb(100, 96, 96);
+        background-color: black;
+        height: 16vh;
+        width: 350px;
+        position: absolute;
+        top: 308%;
+        left: 100px;
+    }
+   
+}
+
+.adad2{
+    width: 1200px;
+    height: 10px;
+    background-color: rgb(40, 40, 40);
+}
+.watch{
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+.a2{
+    margin-top: 50px;
+    width: 500px;
+    margin: 25px;
+    margin-top: 150px;
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 20px;
+ 
+    }
+    
+}
+.a1{
+    position: relative;
+    >img{
+        position: relative;
+        padding-right: -390px;
+        margin-top: 30px;
+        z-index: 10;
+    }
+   >video{
+    width: 350px;
+    position: absolute;
+    /* overflow: hidden; */
+    right: 20%;
+    bottom: 60%;
+    top: 81px;
+    /* left: 30px; */
+    z-index: 1;
+    }
+ }
+ .adad3{
+    
+    width: 1200px;
+    height: 10px;
+    background-color: rgb(40, 40, 40);
+}
+.children{
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+.aa{
+    margin-top: 60px;
+    >img{
+        width: 600px;
+    }
+}
+.aa1{
+    margin-top: 230px;
+    width: 500px;
+   h1{
+    font-size: 60px;
+   }
+   p{
+    font-size: 25px;
+   }
+}
+.adad4{
+    width: 1200px;
+    height: 10px;
+    background-color: rgb(40, 40, 40);
+}
+.Questions{
+    width: 1200px;
+    height: 850px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+    h1{
+        text-align: center;
+       font-size: 50px;
+       padding-top: 40px;
+      
+      }
+    
+}
+.w6{
+    margin: 2%;
+    display: flex;
+   gap: 10px;
+   width: 1060px;
+   height: 70px;
+   background-color: rgb(40, 40, 40);
+   padding-left: 25px;
+   border:1px solid  rgb(0, 0, 0);
+   margin-top: 20px;
+   border-right: 30px;
+   h3{
+    margin-top: 20px;
+   }
+   h2{
+    padding-left: 1000px;
+    font-size: 50px;
+    margin-top: -35px;
+
+   }
+}
+.w6:hover{
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+}
+.ww{
+    justify-content: center;
+    text-align: center;
+    h4{
+        font-size: 25px;
+    }
+}
+.adad5{
+    width: 1200px;
+    height: 10px;
+    background-color: rgb(40, 40, 40);
+}
+footer{
+    height: 400px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+   p{
+    margin-left: 40px;
+    padding-top: 50px;
+   }
+    li{
+        list-style: none;
+        text-decoration: underline;
+    }
+}
+.footer1{
+    display: flex;
+    gap: 130px;
+    margin: 4%;
+}
+.dd{
+    padding-top: -70px;
+    margin: 50px;
+}
+
+ 
